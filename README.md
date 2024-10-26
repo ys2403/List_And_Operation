@@ -1,5 +1,3 @@
-# List_And_Operation
-
 # List Operations in Python
 
 This Jupyter Notebook provides a comprehensive overview of common list operations in Python. It covers various methods and functions that can be used to manipulate lists effectively.
@@ -27,6 +25,10 @@ list_1 = [1, 2, 3]
 sliced_list = list_1[0:1]  # Output: [1]
 print("Sliced List:", sliced_list)
 ```
+**Output:**
+```
+Sliced List: [1]
+```
 
 ## Reversing a List
 
@@ -41,6 +43,11 @@ print("Reversed List:", list_2)
 reversed_list = list_2[::-1]
 print("Reversed List (using slicing):", reversed_list)
 ```
+**Output:**
+```
+Reversed List: [5, 4, 3, 2, 1]
+Reversed List (using slicing): [1, 2, 3, 4, 5]
+```
 
 ## Appending Elements
 
@@ -50,6 +57,10 @@ To add an element to the end of a list, use the `append()` method.
 list_3 = [1, 2, 3]
 list_3.append(4)
 print("List after appending 4:", list_3)
+```
+**Output:**
+```
+List after appending 4: [1, 2, 3, 4]
 ```
 
 ## Extending a List
@@ -61,6 +72,10 @@ list_4 = [1, 2]
 list_4.extend([3, 4, 5])
 print("List after extending:", list_4)
 ```
+**Output:**
+```
+List after extending: [1, 2, 3, 4, 5]
+```
 
 ## Inserting Elements
 
@@ -70,6 +85,10 @@ To insert an element at a specific position, use the `insert()` method.
 list_5 = [1, 2, 4]
 list_5.insert(2, 3)  # Insert 3 at index 2
 print("List after inserting 3:", list_5)
+```
+**Output:**
+```
+List after inserting 3: [1, 2, 3, 4]
 ```
 
 ## Counting Elements
@@ -81,6 +100,10 @@ list_6 = [1, 2, 2, 3, 4]
 count_of_2 = list_6.count(2)
 print("Count of 2 in list:", count_of_2)
 ```
+**Output:**
+```
+Count of 2 in list: 2
+```
 
 ## Finding Index
 
@@ -91,6 +114,10 @@ list_7 = [1, 2, 3, 2, 4]
 index_of_2 = list_7.index(2)
 print("Index of first occurrence of 2:", index_of_2)
 ```
+**Output:**
+```
+Index of first occurrence of 2: 1
+```
 
 ## Removing Elements
 
@@ -100,6 +127,10 @@ To remove an element from a list, you can use the `remove()` method.
 list_8 = [1, 2, 3, 4]
 list_8.remove(3)  # Removes the first occurrence of 3
 print("List after removing 3:", list_8)
+```
+**Output:**
+```
+List after removing 3: [1, 2, 4]
 ```
 
 ## Popping Elements
@@ -112,6 +143,11 @@ popped_element = list_9.pop()  # Removes and returns the last element
 print("Popped Element:", popped_element)
 print("List after popping:", list_9)
 ```
+**Output:**
+```
+Popped Element: 4
+List after popping: [1, 2, 3]
+```
 
 ## Sorting a List
 
@@ -121,6 +157,10 @@ You can sort a list in ascending order using the `sort()` method.
 list_10 = [4, 2, 3, 1]
 list_10.sort()
 print("Sorted List:", list_10)
+```
+**Output:**
+```
+Sorted List: [1, 2, 3, 4]
 ```
 
 ## Finding Min, Max, and Sum
@@ -137,4 +177,9 @@ print("Min Value:", min_value)
 print("Max Value:", max_value)
 print("Total Sum:", total_sum)
 ```
-
+**Output:**
+```
+Min Value: 1
+Max Value: 5
+Total Sum: 15
+```
